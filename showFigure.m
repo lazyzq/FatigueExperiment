@@ -1,6 +1,6 @@
 %% 读取数据文件
 clear;clc;
-M = readmatrix('2022-05-11 16：02.txt');
+M = readmatrix('2022-05-20 18：13.txt');
 Time = M(:,1); % 提取时间
 Displacement = M(:, 2); % 提取位移
 Torque_2 = M(:, end-2); % 提取2#通道扭矩
