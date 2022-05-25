@@ -17,14 +17,14 @@ minusTime = Time(minusTF); minusTorque_2 = Torque_2(minusTF);
 %% 绘图
 subplot(1,2,1);
 plot(Time, Torque_2);
-title('Time v.s. Torque_2#');
+title('Time v.s. Torque2#');
 xlabel('Time (s)')
-ylabel('Torque\_2# (N*m)')
+ylabel('Torque2# (N*m)')
 subplot(1,2,2);
 plot(plusTime(maxIdx), peaks);
 hold on;
 plot(minusTime(minIdx), -valleys);
 hold off;
-title('Time v.s. Torque\_2\_peaks#');
+title('Time v.s. Torque2#Peaks');
 xlabel('Time (s)')
-ylabel('Torque\_2# (N*m)')
+ylabel('Torque2# (N*m)')
